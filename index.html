@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="event-card">
+        <img src="https://img.freepik.com/free-photo/energetic-dance-floor-with-people-celebrating-birthday_1268-30665.jpg" alt="Event Image" width="150" height="100"> 
+        <h3>Bharath B'day Party</h3>
+        <p>Seats Available: 23</p>
+        <form id="registration-form">
+            <div class="input-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="input-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="input-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="input-group">
+                <label for="seats-needed">Number of Seats Needed:</label>
+                <input type="number" id="seats-needed" name="seats-needed" min="1" max="23" required>
+            </div>
+            <div class="input-group">
+                <label for="attendee2">Name of Attendee 2:</label>
+                <input type="text" id="attendee2" name="attendee2">
+            </div>
+            <div class="btn-container">
+                <button type="submit" class="btn">Submit</button>
+                <button type="button" class="btn cancel" onclick="cancelRegistration()">Cancel</button>
+            </div>
+        </form>
+    </div>
+    
+    <link rel="stylesheet" href="./js/script.js">   
+</body>
+</html>"# event-card" 
